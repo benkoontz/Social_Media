@@ -29,7 +29,7 @@ namespace JokesWebApp.Data.Migrations
                     b.Property<string>("JokeAnswer")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("JokeQuetion")
+                    b.Property<string>("JokeQuestion")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
