@@ -20,7 +20,7 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #fff;
+    color: white;
     background-color: #1b6ec2;
     border-color: #1861ac;
     
@@ -84,6 +84,7 @@ body {
     background-color: mediumpurple; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    text-align: center;
 }
 
     /* The navigation menu links */
@@ -99,6 +100,35 @@ body {
         .sidenav a:hover {
             color: #f1f1f1;
         }
+
+/* leader board*/
+.leaderboard {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: mediumpurple; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    text-align: center;
+}
+
+    /* The navigation menu links */
+    .leaderboard a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+    }
+
+        /* When you mouse over the navigation links, change their color */
+        .leaderboard a:hover {
+            color: #f1f1f1;
+        }
+/* The sidebar menu */
 
 /* Style page content */
 .main {
