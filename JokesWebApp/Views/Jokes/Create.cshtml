@@ -4,7 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Add a friend</h1>
 
 <h4>Joke</h4>
 <hr />
@@ -13,12 +13,12 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="JokeQuetion" class="control-label">Question</label>
+                <label asp-for="JokeQuetion" class="control-label">Name</label>
                 <input asp-for="JokeQuetion" class="form-control" />
                 <span asp-validation-for="JokeQuetion" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="JokeAnswer" class="control-label">Answer</label>
+                <label asp-for="JokeAnswer" class="control-label">Send Friend Request</label>
                 <input asp-for="JokeAnswer" class="form-control" />
                 <span asp-validation-for="JokeAnswer" class="text-danger"></span>
             </div>
@@ -30,7 +30,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to questions</a>
+    <a asp-action="Index">Back to list of friends</a>
 </div>
 
 @section Scripts {
